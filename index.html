@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Néstor Benjamín - Portafolio</title>
+
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="data:image/png;base64,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">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="./js/main.js"></script>
+
+    <meta name="author" content="Nestor Benjamin Canario Ortega">
+    <meta name="Resource-type" content="Homepage">
+    <meta name="robots" content="ALL">
+    <meta name="description"
+        content="Portafolio de presentacion de Nestor Benjamin Canario Ortega como programador web. Aquí doy a conocer mis conocimientos y mis trabajos hechos con HTML, CSS, JAVASCRIPT y PHP.">
+    <meta name="keywords" content="nestor benjamin, portafolio web, html5,cs3 y javascript">
+
+    <meta property="og:image" content="https://i.pinimg.com/736x/7f/b9/f8/7fb9f801d63f0d09ad13800970c47901.jpg">
+    <meta property="og:description"
+        content="Portafolio de presentacion de Nestor Benjamin Canario Ortega como programador web. Aquí doy a conocer mis conocimientos y mis trabajos hechos con HTML, CSS, JAVASCRIPT y PHP.">
+    <meta property="og:title" content="Portafolio Néstor Benjamín Canario Ortega">
+</head>
+
+<body>
+
+    <header class="p-5" style="text-shadow: 0 1px 0px white;">
+        <div></div>
+        <hgroup>
+            <h1 class="display-2 text-center text-white my-5 animate__animated animate__bounceIn">Néstor Benjamín</h1>
+            <p class="m-0 p-0 display-4 text-center">
+                Desarrollador
+            </p>
+        </hgroup>
+
+        <p class="d-flex justify-content-center mt-2">
+            <b>Compartir</b>
+        </p>
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="animate__animated animate__bounceInLeft">
+                <a href="" data-shared name="whatsapp">
+                    <i class="bi bi-whatsapp" style="color: green;text-shadow: 0 1px 0px black;"></i>
+                </a>
+            </div>
+            <div class="mx-4 animate__animated animate__fadeInUp">
+                <a href="" data-shared name="facebook">
+                    <i class="bi bi-facebook" style="color: #3b5998;text-shadow: 0 1px 0px black;"></i>
+                </a>
+            </div>
+            <div class="animate__animated animate__bounceInRight">
+                <a href="" data-shared name="twitter">
+                    <i class="bi bi-twitter animate__animated animate__fadeInUpBig"
+                        style="color: #1DA1F2;text-shadow: 0 1px 0px black;"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <br />
+    <br />
+    <div class="container mt-5 pt-5">
+        <!--ASIDE -->
+        <aside>
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <img src="./img/perfil2.jpg" style="background: #fff;overflow: hidden;scale: 1; outline: .5em solid #8CCAF3; width: 190px;height: 194px;border-radius: 50%;margin: 0 10px;" alt="">
+                
+                <!-- <img src="https://dl.memuplay.com/new_market/img/com.vicman.newprofilepic.icon.2022-06-07-21-33-07.png"
+                    style="max-width: 250px;height: 200px;border-radius: 50%;margin-top: 1em;" alt="" />
+                
+            	https://dl.memuplay.com/new_market/img/com.vicman.newprofilepic.icon.2022-06-07-21-33-07.png
+            	https://cinema10.com.br/upload/personalidades/personalidades_11501_4.jpg
+            -->
+            </div>
+            <section class="my-5">
+                <article>
+                    <h3 class="text-center"> <b>Acerca de mí</b> </h3>
+                    <p class="p-3 text-center text-secondary">Me gusta aprender sobre tecnología, leer, pensar y
+                        desarrollar
+                        lógica; crecer como persona y superarme. La tranquilidad es importante para mí, no trabajo bien
+                        bajo presión. Todo con paciencia, esfuerzo y práctica se puede lograr.
+                    </p>
+                </article>
+
+                <article class="d-flex flex-column align-items-center justify-content-center my-3">
+                    <h3><b>Nacionalidad</b></h3>
+                    <p class="text-secondary text-center">Dominicana</p>
+                </article>
+                <article class="d-flex flex-column align-items-center justify-content-center my-3">
+                    <h3><b>Idiomas</b></h3>
+                    <div class="d-flex justify-content-center align-items-center mt-3">
+                        <div>
+                            <ul class="p-0" style="list-style-type: square;">
+                                <li>
+                                    <span class="">Español</span>
+                                    <p class="d-block m-0 p-0">Cotidiano</p>
+                                </li>
+                                <li>
+                                    <span class="">Ingles</span>
+                                    <p class="m-0 p-0 d-block">Básico</p>
+                                </li>
+                            </ul>
+                        </div>
+                </article>
+                <article class="d-flex flex-column align-items-center justify-content-center my-3 pt-2">
+                    <h3><b>Tel: </b></h3>
+                    <p class="text-secondary text-center">829-201-3558</p>
+                </article>
+
+                <article class="d-flex flex-column align-items-center justify-content-center my-3">
+                    <h3><b>Redes Sociales</b></h3>
+                    <div class="d-flex justify-content-center align-items-center mt-3">
+                        <div>
+                            <a href="https://wa.me/+18292013558" target="_blank"> <i class="bi bi-whatsapp text-secondary"></i> </a>
+                        </div>
+                        <div class="mx-4">
+                            <a href="https://www.facebook.com/edwardocanario" target="_blank"> <i class="bi bi-facebook text-secondary"></i> </a>
+                        </div>
+                        <div>
+                            <a href=""> <i class="bi bi-twitter text-secondary"></i> </a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </aside>
+        <!--MAIN -->
+        <main>
+            <section hidden>
+                <h2>Idiomas</h2>
+                <ol>
+                    <li>
+                        <h3>Español Latino</h3>
+                        <p class="text-dark">Nativo</p>
+                    </li>
+                    <li>
+                        <h3>Ingles</h3>
+                        <p class="text-dark">Basico</p>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>Empleos</h2>
+                <ol>
+                    <li>
+                        <h3>Auxiliar mecanica</h3>
+                        <p class="text-secondary"></p>
+                    </li>
+                    <li>
+                        <h3>Servicio al cliente</h3>
+                        <p class="text-secondary">Tienda Abejero</p>
+                    </li>
+                    <li>
+                        <h3>Digitador y Servicio al cliente</h3>
+                        <p class="text-secondary">Repuestos Ford de la Costa</p>
+                    </li>
+                    <li>
+                        <h3>Administrador en Cibercafé</h3>
+                        <p class="text-secondary"></p>
+                    </li>
+                    <li>
+                        <h3>Digitador, Programador y Soporte Tecnico</h3>
+                        <p class="text-secondary">Hipermercado la Fuente</p>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>Cursos</h2>
+                <ol>
+                    <li>
+                        <h3>Ensamblador de Computadoras</h3>
+                        <p class="text-secondary">Instituto Infotep</p>
+                    </li>
+                    <li>
+                        <h3> <a href="./Certificados/Infotep/CertificadoAAAiBVAAEAACsrRAAA.pdf" target="_blank" rel="noopener noreferrer">Auxiliar Programador</a> <i class="bi bi-link-45deg"></i> </h3>
+                        <p class="text-secondary">Instituto Infotep</p>
+                    </li>
+                    <li>
+                        <h3><a href="./Certificados/Infotep/CertificadoAAAiBVAAEAACowvAAX.pdf" target="_blank" rel="noopener noreferrer">Programador Web</a> <i class="bi bi-link-45deg"></i></h3>
+                        <p class="text-secondary">Instituto Infotep</p>
+                    </li>
+                    <li>
+                        <h3> <a href="./Certificados/Google/Introduccion al desarrollo web I.pdf" target="_blank" rel="noopener noreferrer">Introducción al desarrollo web I</a><i class="bi bi-link-45deg"></i> </h3>
+                        <p class="text-secondary">Google Activate</p>
+                    </li>
+                    <li>
+                        <h3><a href="./Certificados/Google/Introduccion al desarrollo web II.pdf.pdf" target="_blank" rel="noopener noreferrer">Introducción al desarrollo web II</a><i class="bi bi-link-45deg"></i></h3>
+                        <p class="text-secondary">Google Activate</p>
+                    </li>
+                    <li>
+                        <h3> <a href="./Certificados/Aprende - Carlos Slim/Tecnico en informatica.pdf" target="_blank" rel="noopener noreferrer">Técnico en informática</a> <i class="bi bi-link-45deg"></i> </h3>
+                        <p class="text-secondary">Fundación Carlos Slim</p>
+                    </li>
+                    <li>
+                        <h3> 
+                            <a href="./Certificados/Aprende - Carlos Slim/Programador (orientado a objetos).pdf" target="_blank" rel="noopener noreferrer">
+                            Programación (ORIENTADO A OBJETOS)
+                            </a> 
+                            <i class="bi bi-link-45deg"> </i>
+                        </h3>
+                        <p class="text-secondary">Fundación Carlos Slim</p>
+                    </li>
+                    <li>
+                        <h3> <a href="./Certificados/Google/Desarrollo de Apps Moviles.pdf" target="_blank" rel="noopener noreferrer"> Programación Apps</a> <i class="bi bi-link-45deg"></i> </h3>
+                        <p class="text-secondary">Google Activate</p>
+                    </li>
+                    <li>
+                        <h3> Computación en la nube </h3>
+                        <p class="text-secondary">Google Activate</p>
+                    </li>
+                    <li>
+                        <h3>Curador de datos</h3>
+                    </li>
+                    <li>
+                        <h3>Finder</h3>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>Trabajos Independientes</h2>
+                <div style="margin-left: 2em;display: flex;flex-direction: column;">
+                    <small class="text-danger">Muchos trabajos ya no funcionan</small>
+                    <small class="text-danger">
+                        debido al incumplimiento de pago de Hosting u otros problemas
+                    </small>
+                    <small class="text-danger">de parte de los dueños o empresas.</small>
+                </div>
+                <ol>
+                    <li>
+                        <h3> <a href="https://nestor-b.github.io/hoja-de-vida/img/empresas/SOLICITUD-DE-EMPLEO-LA-FUENTE-1.png"
+                                title="Solo imagen de muestra" target="_blank">Formulario Registro Empleo</a> <i class="bi bi-image" style="display: inline-block;margin-left: 10px;"></i> </h3>
+                        <p class="text-secondary">Hipermercado la Fuente</p>
+                    </li>
+                    <li>
+                        <h3> <a href="" title="Solo imagen de muestra" target="_blank">Sistema Kindergarten guardería de
+                                niños</a> <i class="bi bi-image" style="display: inline-block;margin-left: 10px;"></i> </h3>
+                        <p class="text-secondary">Iglesia Shaddai</p>
+                    </li>
+                    <li>
+                        <h3> <a href="https://nestor-b.github.io/hoja-de-vida/img/empresas/AGUILA-GPS-1.png"
+                                title="Solo imagen de muestra" target="_blank">Landing Page</a> <i class="bi bi-image" style="display: inline-block;margin-left: 10px;"></i> </h3>
+                        <p class="text-secondary">Aguilas GPS</p>
+                    </li>
+                    <li>
+                        <h3> <a href="https://nestor-b.github.io/hoja-de-vida/img/empresas/lik-industries.png"
+                                title="Solo imagen de muestra" target="_blank">Landing Page</a> <i class="bi bi-image" style="display: inline-block;margin-left: 10px;"></i> </h3>
+                        <p class="text-secondary">LIK Industries</p>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>Proyectos Personales</h2>
+                <ol>
+                    <li>
+                        <h3>Sistema de Prestamos - <small><i class="text-secondary">En Proceso ...</i></small> </h3>
+                        <p class="text-secondary">Útil para emprendedores en el área de préstamos.</p>
+                    </li>
+                    <li>
+                        <h3> <a href="https://nestor-be.github.io/paidjob/#/" target="_blank">PaidJobs</a> <i class="bi bi-link-45deg"></i> </h3>
+                        <p class="text-secondary">Útil para vender trabajos en línea con el método de pago PayPal.</p>
+                    </li>
+                    <li>
+                        <h3> <a href="https://charming-sunshine-e86dcb.netlify.app/" target="_blank">Temporary Talk</a> <i class="bi bi-link-45deg"></i>
+                        </h3>
+                        <p class="text-secondary">Chat temporal con llamadas, videollamadas, envío de archivos y notas
+                            de voz.</p>
+                    </li>
+                    <li>
+                        <h3> <a href="https://nestor-b.github.io/template-curriculum/" target="_blank">Curriculum
+                                Template</a> <i class="bi bi-link-45deg"></i> </h3>
+                        <p class="text-secondary">Útil para crear un currículum simple.</p>
+                    </li>
+                    <li>
+                        <h3> <a href="./img/netmovie.png" target="_blank" rel="noopener noreferrer">NetMovie</a> - <small><i class="text-secondary">En Proceso ...</i></small> </h3>
+                        <p class="text-secondary">Aplicación para ver películas y canales en línea.</p>
+                    </li>
+                    <li>
+                        <h3>Apk TV online</h3>
+                        <p class="text-secondary">Aplicación sencilla para ver canales en línea.</p>
+                    </li>
+                    <li>
+                        <h3> <a href="https://juego-nave-online-luis.up.railway.app/" target="_blank">Juego de Nave(Uno
+                                contra Uno) Online</a> <i class="bi bi-link-45deg"></i> </h3>
+                        <p class="text-secondary">Entretenimiento de juego de nave en línea.</p>
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>Practicas</h2>
+                <ol>
+                    <li>
+                        <h3> <a href="https://nestor-b.github.io/ToDo-Simple/" target="_blank" rel="noopener noreferrer">
+                            To Do List
+                        </a> </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <a href="https://nestor-b.github.io/Juego-Bomberman-/" target="_blank">Juego-Bomberman</a>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>Tienda Libros - Vue</h3>
+                    </li>
+                    <li>
+                        <h3> <a href="https://nestor-b.github.io/Juego-Breakout/" target="_blank"> Juego-Breakout </a>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3> <a href="https://nestor-b.github.io/videojuego-nave-espacial/" target="_blank">
+                                Videojuego-nave-espacial</a> </h3>
+                    </li>
+                    <li>
+                        <h3> <a href="https://nestor-b.github.io/globo-aeroestatico/" target="_blank">
+                                globo-aeroestatico</a></h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <a href="https://nestor-b.github.io/Juego-rompecabezas/" target="_blank">
+                                Juego-rompecabezas
+                            </a>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <a href="https://jolly-beignet-34ca2e.netlify.app/" target="_blank">EditorHTML - react</a>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3> <a href="https://github.com/Nestor-B/Reloj/tree/main" target="_blank">Reloj JS</a> </h3>
+                    </li>
+                    <li>
+                        <h3>Apk Noticias - React Native </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <a href="https://nestor-b.github.io/Juego-Pong/" target="_blank">Juego Pong</a>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3> <a href="https://github.com/Nestor-B/Calendario-react" target="_blank"> Calendario
+                                ReactJS</a> </h3>
+                    </li>
+                    <li>
+                        <h3><a href="" class="text-primary">Ver mas</a></h3>
+                    </li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Habilidades</h2>
+                <div data-aos="flip-up"
+                    style="display: grid;grid-template-columns: repeat(auto-fill, minmax(100px, .50fr));gap: 10px;padding: 0 30px;border-left: 1px dashed #ccc;">
+                    <span class="rounded p-3 text-center">HTML</span>
+                    <span class="rounded p-3 text-center">CSS</span>
+                    <span class="rounded p-3 text-center">Bootstrap</span>
+                    <span class="rounded p-3 text-center">JavaScript</span>
+                    <span class="rounded p-3 text-center">Jquery</span>
+                    <span class="rounded p-3 text-center">XML</span>
+                    <span class="rounded p-3 text-center">XMLHttpRequest</span>
+                    <span class="rounded p-3 text-center">Ajax</span>
+                    <span class="rounded p-3 text-center">Vue</span>
+                    <span class="rounded p-3 text-center">Vue-route</span>
+                    <span class="rounded p-3 text-center">Pinia</span>
+                    <span class="rounded p-3 text-center">Vuex</span>
+                    <span class="rounded p-3 text-center">React</span>
+                    <span class="rounded p-3 text-center">React Native</span>
+                    <span class="rounded p-3 text-center">Node</span>
+                    <span class="rounded p-3 text-center">Express</span>
+                    <span class="rounded p-3 text-center">Sequelize</span>
+                    <span class="rounded p-3 text-center">JSON web token</span>
+                    <span class="rounded p-3 text-center">MySQL</span>
+                    <span class="rounded p-3 text-center">SQLite</span>
+                    <span class="rounded p-3 text-center">Firebase</span>
+                    <span class="rounded p-3 text-center">Apache</span>
+                    <span class="rounded p-3 text-center">Mac</span>
+                    <span class="rounded p-3 text-center">Linux</span>
+                    <span class="rounded p-3 text-center">Windows</span>
+                </div>
+            </section>
+        </main>
+    </div>
+    <section style="overflow: hidden !important;position: relative;bottom: 0;left: 0;z-index: -1;width: 100%;">
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(5,211,248,0.7" />
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(0,157,221,0.5)" />
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(56,109,189,0.3)" />
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="navy" />
+                </g>
+            </svg>
+        </div>
+    </section>
+    <div class="p-5 section-form-contact">
+        <div class="text-white text-center p-2">
+            <h2 class="my-4">Contáctame</h2>
+            <p>Utiliza el siguiente formulario y dime cómo puedo ayudarte.</p>
+            <p>o</p>
+            <p>
+                <a href=""><i class="text-white display-4 bi bi-github"></i></a>
+            </p>
+        </div>
+        <form class="form-contact bg-success p-4 bg-white rounded">
+            <p class="h1 text-center my-5">Formulario de Contacto</p>
+            <input placeholder="Nombre" type="text" name="name" id="nombre" class="form-control form-control-lg" />
+            <input placeholder="Correo" type="email" name="email" id="correo"
+                class="form-control form-control-lg my-3" required autocomplete="off" />
+            <textarea class="form-control" name="message" id="mensaje" style="height: 200px;" placeholder="Mensaje"></textarea>
+            <div class="my-3 d-flex justify-content-end">
+                <button class="btn btn-lg text-white" onclick="FormContactSubmit(event)"
+                    style="background: navy !important;">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="_grid justify-center text-center text-white"
+        style="padding: 2.2em 0;background: navy;position: relative;overflow: hidden;">
+        <img src="https://static.wixstatic.com/media/787d4f_fdc033cb3ad84c0d9fa55293b39e1348~mv2.gif"
+            style="position: absolute;left: 15%;bottom: -10px;width: 100px;" />
+        <p>
+            Documento validado por <a target="_blank" class="text-white"
+                href="https://validator.w3.org">https://validator.w3.org</a>
+        </p>
+        <p>
+            <small>
+                &COPY;
+                <script>
+                    let fecha = new Date().toUTCString()
+                    document.write(fecha.toString().split(" ").slice(0, 4).join(" "))
+                </script>
+            </small>
+        </p>
+    </footer>
+
+    <div id="snackbar">Su correo ha sido enviado!!! </div>
+
+    <script>
+        const FormContactSubmit = (event) => {
+            event.preventDefault()
+
+            if (nombre.value == '' || correo.value == '' || mensaje.value == '') {
+                return
+            } else {
+                fetch("https://formsubmit.co/ajax/f19e61d5d2a407c85c8f68dd485bcf4f", {
+                    method: "POST",
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name: nombre.value,
+                        email: correo.value,
+                        message: mensaje.value
+                    })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        var x = document.getElementById("snackbar");
+                        x.className = "show";
+                        setTimeout(function () {
+                            x.className = x.className.replace("show", "");
+                            nombre.value = ''
+                            email.value = ''
+                            mensaje.value = ''
+                        }, 3000);
+                    })
+                    .catch(error => console.log(JSON.stringify(error)));
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="./css/toast.css">
+
+</body>
+
+</html>
